@@ -20,7 +20,7 @@ toggleSwitch.addEventListener("click", () => {
 
 
 var typingEffect = new Typed(".typedText", {
-    strings: ["Developer", "Student", "Designer","Guitarist ;)"],
+    strings: ["Developer", "Student", "Designer","Guitarist"],
     loop: true,
     typeSpeed: 100,
     backSpeed: 80, 
@@ -41,8 +41,8 @@ sr.reveal(".text-info", { delay: 100 });
 sr.reveal(".text-btn", { delay: 100 });
 sr.reveal(".text-info", { delay: 100 });
 sr.reveal(".text-info", { delay: 100 });
-sr.reveal("img", { delay: 100 });
-sr.reveal("image", { delay: 100 });
+
+sr.reveal(".image", { delay: 100 });
 
 sr.reveal("#Projects", { delay: 100 });
 sr.reveal("project-box", { interval: 100 });

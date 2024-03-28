@@ -167,11 +167,12 @@ body.dark #moon {
     padding-inline: 10vw;
 }
 
-.featured-box{
+.featured-box {
     position: relative;
     display: flex;
     height: 100vh;
     min-height: 700px;
+    justify-content: space-between;
     
 }
 .featured-text{
@@ -329,25 +330,22 @@ body.dark #moon {
     display: flex;
     justify-content: right;
     align-items: center;
-    min-height: 80vh;
-    width: 100%;
     margin-top: -10%;
+  
 
 }
 .image{
     width: auto;
-    margin-top: 15%;
-    height: 500px;
-    width: 400px;
-    border-radius: 40% 40% 40% 40%;
+    margin-top: 20%;
+    height: 300px;
+    width:300px;
+    border-radius: 50% 50% 40% 40%;
     overflow: hidden;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3); 
     background-color: azure;
 }
 .image img{
-    height: 700px;
-    margin-left: -65px;
-    margin-top: -20px;
+    height: 300px;
     
 }
 
@@ -701,10 +699,11 @@ footer {
 /* For screens up to 600px */
 @media screen and (max-width: 576px) {
     .image {
-        margin-left: 20px;
-        height: 250px;
-        width: 150px;
-        margin-top: 5px;
+
+        height: 180px;
+        width: 180px;
+        margin-top: -40px;
+        
     }
 
     .about-me{
@@ -715,9 +714,7 @@ footer {
     }
 
     .image img {
-        
-        height: 450px;
-        margin-left: -100px;
+        height: 180px;
         
     }
     
@@ -829,13 +826,13 @@ footer {
         display: flex;
         height: 100vh;
         min-height: 700px;
+        
     }
 
     /* Decrease image width only for screens between 601px and 768px */
     .image {
-        width: 350px;
+        width: 300px;
+        height: 300px;
     }
-    .image img{
-        margin-left: -90px;
-    }
+
 }
