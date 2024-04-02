@@ -45,6 +45,7 @@ body.dark {
 .container{
     width: 100%;
     position: relative;
+    
 }
 .skillheading{
     color: var(--text-color);
@@ -180,7 +181,7 @@ body.dark #moon {
     margin-top: 2%;
     display: flex;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 90vh;
     flex-direction: column;
     width: 50%;
     align-items: center;
