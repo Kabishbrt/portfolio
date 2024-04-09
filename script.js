@@ -47,7 +47,7 @@ sr.reveal(".image", { delay: 100 });
 sr.reveal("#Projects", { delay: 100 });
 sr.reveal("project-box", { interval: 100 });
 sr.reveal("h1", { delay: 100 });
-sr.reveal("span", { delay: 100 });
+
 
 const srLeft = ScrollReveal({
     origin: "left",
